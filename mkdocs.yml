@@ -3,26 +3,25 @@ site_name: Nombre Estudiante - UTEC & Fab Lab Barcelona
 site_description: Master in Design for Emergent Futures
 site_author: Nombre Estudiante
 copyright: Copyleft 2024 "Nombre Estudiante" - GNU Free Documentation License
-repo_name: 'Name : Github Repo'
+repo_name: "Name : Github Repo"
 site_url: https://mathira.github.io/efdi-template/
 repo_url: https://github.com/mathira/efdi-template
-
 
 nav:
   - Home: index.md
   - About: about/me.md
-  - Modulos Técnicos :
-    - MT01: tecnicos/mt01.md
-    - MT02: tecnicos/mt02.md
-  - Modulos Diseño :
-    - MD01: diseno/md01.md
-  - Modulos Innovación :
-    - MI01: inn/mi01.md
+  - Modulos Técnicos:
+      - MT01: tecnicos/mt01.md
+      - MT02: tecnicos/mt02.md
+      - MT03: tecnicos/mt03.md
+  - Modulos Diseño:
+      - MD01: diseno/md01.md
+  - Modulos Innovación:
+      - MI01: inn/mi01.md
   - Proyecto Integrador:
-    - Ideas Iniciales: proyecto/proyecto.md
+      - Ideas Iniciales: proyecto/proyecto.md
   - Referencias:
-    - web: ref/web.md
-
+      - web: ref/web.md
 
 extra:
   social:
@@ -101,7 +100,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.smartsymbols
   - pymdownx.snippets:
-      base_path: 'docs'
+      base_path: "docs"
   - pymdownx.superfences
   - pymdownx.tasklist:
       custom_checkbox: true
