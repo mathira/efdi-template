@@ -10,7 +10,7 @@ repo_url: https://github.com/mathira/efdi-template
 nav:
   - Home: index.md
   - About: about/me.md
-  - About sitio web: about/me.md
+  - About sitio web: about sitio web/sitio web.md
   - B1 Tecnología y Fabricación:
       - MT02: tecnicos/mt02.md
       - MT03: tecnicos/mt03.md
